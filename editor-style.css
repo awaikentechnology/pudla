@@ -1,0 +1,156 @@
+body#tinymce.wp-editor{
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	color: #848490;
+}
+
+body#tinymce.wp-editor h1,
+body#tinymce.wp-editor h2,
+body#tinymce.wp-editor h3,
+body#tinymce.wp-editor h4,
+body#tinymce.wp-editor h5,
+body#tinymce.wp-editor h6{
+	color: #323246;
+	margin-bottom: 1em;
+	font-weight: 600;
+}
+
+body#tinymce.wp-editor h1{
+	font-size: 24px;
+}
+
+body#tinymce.wp-editor h2{
+	font-size: 22px;
+}
+
+body#tinymce.wp-editor h3{
+	font-size: 20px;
+}
+
+body#tinymce.wp-editor h4{
+	font-size: 18px;
+}
+
+body#tinymce.wp-editor h5{
+	font-size: 16px;
+}
+
+body#tinymce.wp-editor h6{
+	font-size: 14px;
+}
+
+body#tinymce.wp-editor a{
+	color: #323246;
+}
+
+body#tinymce.wp-editor p{
+	line-height: 1.8em;
+	margin-bottom: 1.8em;
+}
+
+body#tinymce.wp-editor blockquote{
+	max-width: 600px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 70px;
+	margin-top: 40px;
+}
+
+body#tinymce.wp-editor table{
+	width: 100%;
+	margin-bottom: 1.7em;
+	border-top: 1px solid #848490;
+	border-left: 1px solid #848490;
+}
+
+body#tinymce.wp-editor table tr th{
+	font-weight: 600;
+	color: #323246;
+	border-right: 1px solid #848490;
+	border-bottom: 1px solid #848490;
+	padding: 6px 10px;
+}
+
+body#tinymce.wp-editor table tr td{
+	padding: 6px 10px;
+	border-right: 1px solid #848490;
+	border-bottom: 1px solid #848490;
+}
+
+body#tinymce.wp-editor dl dt{
+	font-weight: 600;
+	color: #323246;
+}
+
+body#tinymce.wp-editor dl dd{
+	margin-bottom: 1.7em;
+	line-height: 1.7em;
+}
+
+body#tinymce.wp-editor ul{
+	list-style: circle;
+	margin-bottom: 1.7em;
+}
+
+body#tinymce.wp-editor ul ul{
+	margin-bottom: 0;
+}
+
+body#tinymce.wp-editor ul li{
+	padding-top: 8px;
+	position: relative;
+}
+
+body#tinymce.wp-editor ol{
+	margin-bottom: 1.7em;
+}
+
+body#tinymce.wp-editor ol{
+	margin-bottom: 0;
+}
+
+body#tinymce.wp-editor ol ul li{
+	padding-top: 8px;
+}
+
+body#tinymce.wp-editor  ul ol > li:before{
+	display: none;
+}
+
+body#tinymce.wp-editor ol ol{
+	margin-bottom: 0;
+}
+
+body#tinymce.wp-editor ol li{
+	padding-top: 8px;
+	position: relative;
+}
+
+body#tinymce.wp-editor iframe{
+	max-width: 100%;
+}
+
+body#tinymce.wp-editor blockquote:before{
+	content: '\f10d';
+	font-family: 'Font Awesome 5 Free';
+	font-size: 26px;
+	display: block;
+	font-weight: 900;
+	width: 54px;
+	height: 54px;
+	line-height: 54px;
+	background: #323246;
+	color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -27px;
+}
+
+body#tinymce.wp-editor blockquote p{
+	font-size: 20px;
+	font-weight: 500;
+	color: #323246;
+}

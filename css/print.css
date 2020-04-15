@@ -1,0 +1,111 @@
+@media print {
+	body{
+		-webkit-print-color-adjust: exact;
+	}
+	
+	.main-navbar,
+	.header-social-links,
+	.top-social-search,
+	.single-post-title,
+	.single-post-header,
+	.post-navigation,
+	.post-comments,
+	.post-entry-content *,
+	.sidebar,
+	.instagram-feeds,
+	.tag-list,
+	footer{
+		display: none;
+	}	
+	
+	.header-style-2 .row{
+		display: block;
+	}
+
+	.header-style-2 .row .col-md-3{
+		max-width: 100%;
+		text-align: center;
+	}
+	
+	.recipe-shortcode{
+		min-width: 680px;
+		padding: 0 !important;
+		border: none;
+		margin-top: -40px !important;
+	}
+	
+	.post-entry-content .recipe-shortcode,
+	.post-entry-content .recipe-shortcode *{
+		display: block;
+	}
+	
+	.post-entry-content .recipe-shortcode .row{
+		display: flex;
+	}
+
+	.post-entry-content .recipe-info-box{
+		display: inline-block;
+	}
+	
+	.post-entry-content .recipe-shortcode .recipe-print-button{
+		display: none;
+	}
+	
+	.post-entry-content .recipe-info-box .recipe-information-tabs .nav-tabs,
+	.post-entry-content .recipe-info-box .recipe-information-tabs .tab-content{
+		display: none;
+	}
+	
+	.fade{
+		opacity: 1;
+	}
+	
+	.recipe-information-tabs .card-header a i{
+		display: inline-block;
+	}
+
+	.recipe-information-tabs .card .collapse li{
+		position: relative;
+		padding-left: 20px;
+	}
+	
+	.recipe-information-tabs .card .collapse li:before{
+		content: '';
+		width: 8px;
+		height: 8px;
+		position: absolute;
+		left: 0;
+		top: 16px;
+		border-radius: 50%;
+		border: 1px solid #848490;
+	}
+	
+	.recipe-information-list-view-entry ol li{
+		position: relative;
+	}
+	
+	.recipe-information-list-view-entry ol li:before,
+	.recipe-information-list-view-entry ul li:before{
+		content: '';
+		width: 8px;
+		height: 8px;
+		position: absolute;
+		left: 0;
+		top: 10px;
+		border-radius: 50%;
+		border: 1px solid #848490;
+	}
+	
+	.recipe-information-list-view-entry ol li:before{
+		left: -10px;
+	}
+	
+	.post-entry-content .recipe-shortcode .recipe-information-list-view-entry ul li{
+		display: block;
+	}
+	
+	.post-entry-content .recipe-shortcode .recipe-information-list-view h3 i{
+		display: inline-block;
+	}
+	
+}

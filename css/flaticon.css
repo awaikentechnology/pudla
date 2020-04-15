@@ -1,0 +1,50 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 16/07/2018 11:45
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-style: normal;
+}
+
+.flaticon-salad:before { content: "\f100"; }
+.flaticon-avatar:before { content: "\f101"; }
+.flaticon-crossed-knife-and-fork:before { content: "\f102"; }
+.flaticon-check-list:before { content: "\f103"; }
+.flaticon-quotation-mark:before { content: "\f104"; }
+.flaticon-food-1:before { content: "\f105"; }
+.flaticon-doctor:before { content: "\f106"; }
+.flaticon-cooking-1:before { content: "\f107"; }
+.flaticon-chef:before { content: "\f108"; }
+.flaticon-oat:before { content: "\f109"; }
+.flaticon-stopwatch:before { content: "\f10a"; }
+.flaticon-time:before { content: "\f10b"; }
+.flaticon-cutlery:before { content: "\f10c"; }
+.flaticon-skyline:before { content: "\f10d"; }
+.flaticon-visibility:before { content: "\f10e"; }
+.flaticon-laptop:before { content: "\f10f"; }
+.flaticon-tray:before { content: "\f110"; }
+.flaticon-click:before { content: "\f111"; }
+.flaticon-cooking:before { content: "\f112"; }
+.flaticon-food:before { content: "\f113"; }
+.flaticon-clock:before { content: "\f114"; }
